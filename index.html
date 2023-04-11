@@ -71,6 +71,17 @@
         background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
       }
 
+      .circle{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+      }
+
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -85,7 +96,7 @@
       <div class="container">
         <div class="card left-card">
           <p>Your Result</p>
-          76 of 100
+          <div class="circle">76 of 100</div>
           <h1>Great</h1>
           <p>
             You scored higher than 65% of the people who have taken these tests.
